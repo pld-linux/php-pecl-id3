@@ -4,12 +4,12 @@
 Summary:	%{_modname} - functions to read and write ID3 tags in MP3 files
 Summary(pl):	%{_modname} - funkcje do odczytu i zapisu tagów ID3 w plikach MP3
 Name:		php-pecl-%{_modname}
-Version:	0.1
+Version:	0.2
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	d37c0e112c700ea6a86fe0c52e49b9c8
+# Source0-md5:	c19445a5b676a7d5b90d5d19affa9ced
 URL:		http://pecl.php.net/package/id3/
 BuildRequires:	libtool
 BuildRequires:	php-devel >= 3:5.0.0
