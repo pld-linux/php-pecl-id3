@@ -1,8 +1,8 @@
 %define		_modname	id3
 %define		_status		alpha
 
-Summary:	%{_modname} - functions to read and write ID3 tags in MP3 files.
-Summary(pl):	%{_modname} - funkcje do odczytu i zapisu tagów ID3 w plikach MP3.
+Summary:	%{_modname} - functions to read and write ID3 tags in MP3 files
+Summary(pl):	%{_modname} - funkcje do odczytu i zapisu tagów ID3 w plikach MP3
 Name:		php-pecl-%{_modname}
 Version:	0.1
 Release:	1
@@ -10,7 +10,7 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	d37c0e112c700ea6a86fe0c52e49b9c8
-URL:		http://pecl.php.net/package/Modname/
+URL:		http://pecl.php.net/package/id3/
 BuildRequires:	libtool
 BuildRequires:	php-devel >= 3:5.0.0
 Requires:	php-common >= 3:5.0.0
@@ -60,5 +60,5 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%doc %{_modname}-%{version}/{CREDITS,EXPERIMENTAL}
+%doc %{_modname}-%{version}/{CREDITS,EXPERIMENTAL,TODO}
 %attr(755,root,root) %{extensionsdir}/%{_modname}.so
