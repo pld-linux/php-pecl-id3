@@ -1,7 +1,7 @@
 %define		_modname	id3
 %define		_status		alpha
 Summary:	%{_modname} - functions to read and write ID3 tags in MP3 files
-Summary(pl):	%{_modname} - funkcje do odczytu i zapisu tagów ID3 w plikach MP3
+Summary(pl.UTF-8):   %{_modname} - funkcje do odczytu i zapisu tagÃ³w ID3 w plikach MP3
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	6
@@ -23,9 +23,9 @@ files. It supports version 1.0 and version 1.1.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-id3 umo¿liwia odbiór i aktualizacjê informacji w tagach ID3 w plikach
-MP3. Wspiera wersjê 1.0 oraz 1.1.
+%description -l pl.UTF-8
+id3 umoÅ¼liwia odbiÃ³r i aktualizacjÄ™ informacji w tagach ID3 w plikach
+MP3. Wspiera wersjÄ™ 1.0 oraz 1.1.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
